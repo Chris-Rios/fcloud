@@ -6,5 +6,5 @@ const generateTextFart = require('./fartGenerator').generateTextFart;
 generateTextFart()
   .then((result) => {
 
-    console.log(result);
+    console.log("Result of text generation:", result);
   })
