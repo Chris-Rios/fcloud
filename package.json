@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Chris-Rios/fcloud/issues"
   },
-  "homepage": "https://github.com/Chris-Rios/fcloud#readme"
+  "homepage": "https://github.com/Chris-Rios/fcloud#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
