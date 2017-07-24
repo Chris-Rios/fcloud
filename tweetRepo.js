@@ -1,4 +1,6 @@
-
+const config = require('./config');
+const fetch = require('node-fetch');
+const base64 = require('base-64')
 const fakeTweets = [
   'It\'s surprisingly common for sheep to be hit by lightning. In 1939, 835 were killed in a single strike in Utah.',
   'Seagull Nebula - a nursery for young stars spanning over 100 light years and dominated by the reddish glow of atomic hydrogen.',
