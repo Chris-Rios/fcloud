@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Chris-Rios/fcloud#readme",
   "dependencies": {
+    "node-fetch": "^1.7.1",
     "nodemon": "^1.11.0"
   }
 }
