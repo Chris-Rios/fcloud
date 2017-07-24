@@ -1,8 +1,8 @@
-const getRecentTweet = require('./tweetRepo').getRecentTweet;
+const getRecentTweetFake = require('./tweetRepo').getRecentTweetFake;
 
 const generateTextFart = () => {
 return new Promise((resolve, reject) => {
-  getRecentTweet()
+  getRecentTweetFake()
     .then((result) => {
       let textFart = '';
       /*
